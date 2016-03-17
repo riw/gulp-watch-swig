@@ -1,0 +1,29 @@
+{
+  "name": "gulp-watch-swig",
+  "version": "1.0.0",
+  "description": "Watch swig files and their includes/extends using the gulp-watch endless stream",
+  "license": "MIT",
+  "repository": "riw/gulp-watch-swig",
+  "author": {
+    "name": "Richard Wimmer"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "less",
+    "watch",
+    "gulp-watch",
+    "gulp-less"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.0",
+    "gulp-watch": "^1.1.0",
+    "through2": "^0.6.1"
+  }
+}
