@@ -15,7 +15,7 @@ function getSwigFileImports(file, cb) {
 		filePath = file.path,
 		base,
 		contents,
-		regexp = /{%\s*(?:extends|include)\s*(?:"(.+)"|'(.+)').*%}/g,
+		regexp = /{%\s*(?:extends|include)\s*(?:"(.+?)"|'(.+?)').*%}/g,
 		match,
 		imports = [],
 		i = 0;
