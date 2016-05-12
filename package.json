@@ -1,6 +1,6 @@
 {
   "name": "gulp-watch-swig",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Watch swig files and their includes/extends using the gulp-watch endless stream",
   "license": "MIT",
   "repository": "riw/gulp-watch-swig",
